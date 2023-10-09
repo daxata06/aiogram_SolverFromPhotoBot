@@ -7,7 +7,7 @@ class FSM(StatesGroup):
     getphotop = State()
     rassil = State()
 
-token='6445423503:AAEbSk9nSymwkURfwRmwvTaaAX6D3Hc5ITM' #change to your token
+token='your token'
 storage = MemoryStorage()
 bot = Bot(token)
 dp = Dispatcher(bot, storage=storage)
