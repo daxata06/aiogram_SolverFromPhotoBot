@@ -1,7 +1,7 @@
 import openai
 import asyncio
 
-openai.api_key = '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' #change to your key
+openai.api_key = 'your openai key' 
 
 
 async def generate_completion(prompt, content):
